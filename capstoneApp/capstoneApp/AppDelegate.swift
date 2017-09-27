@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         let gameViewController =  GameViewController()
-    
+        
         gameViewController.view.backgroundColor = UIColor.red
         
         window!.rootViewController = gameViewController
