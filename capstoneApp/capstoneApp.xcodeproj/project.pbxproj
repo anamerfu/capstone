@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		24B7A3091F7ADF8B00AC0BF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7A3081F7ADF8B00AC0BF9 /* AppDelegate.swift */; };
 		24B7A30B1F7ADF8B00AC0BF9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B7A30A1F7ADF8B00AC0BF9 /* art.scnassets */; };
-		24B7A30D1F7ADF8B00AC0BF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7A30C1F7ADF8B00AC0BF9 /* ViewController.swift */; };
+		24B7A30D1F7ADF8B00AC0BF9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7A30C1F7ADF8B00AC0BF9 /* GameViewController.swift */; };
 		24B7A3101F7ADF8B00AC0BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B7A30E1F7ADF8B00AC0BF9 /* Main.storyboard */; };
 		24B7A3121F7ADF8B00AC0BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B7A3111F7ADF8B00AC0BF9 /* Assets.xcassets */; };
 		24B7A3151F7ADF8B00AC0BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B7A3131F7ADF8B00AC0BF9 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		24B7A3051F7ADF8B00AC0BF9 /* capstoneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = capstoneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B7A3081F7ADF8B00AC0BF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24B7A30A1F7ADF8B00AC0BF9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		24B7A30C1F7ADF8B00AC0BF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24B7A30C1F7ADF8B00AC0BF9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		24B7A30F1F7ADF8B00AC0BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24B7A3111F7ADF8B00AC0BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24B7A3141F7ADF8B00AC0BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				24B7A3081F7ADF8B00AC0BF9 /* AppDelegate.swift */,
 				24B7A30A1F7ADF8B00AC0BF9 /* art.scnassets */,
-				24B7A30C1F7ADF8B00AC0BF9 /* ViewController.swift */,
+				24B7A30C1F7ADF8B00AC0BF9 /* GameViewController.swift */,
 				24B7A30E1F7ADF8B00AC0BF9 /* Main.storyboard */,
 				24B7A3111F7ADF8B00AC0BF9 /* Assets.xcassets */,
 				24B7A3131F7ADF8B00AC0BF9 /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B7A30D1F7ADF8B00AC0BF9 /* ViewController.swift in Sources */,
+				24B7A30D1F7ADF8B00AC0BF9 /* GameViewController.swift in Sources */,
 				24B7A3091F7ADF8B00AC0BF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AWP7D85AR;
 				INFOPLIST_FILE = capstoneApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ALcapstone.capstoneApp;
@@ -445,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AWP7D85AR;
 				INFOPLIST_FILE = capstoneApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ALcapstone.capstoneApp;
