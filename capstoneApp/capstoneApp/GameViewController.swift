@@ -84,7 +84,7 @@ class GameViewController: UIViewController, ARSCNViewDelegate {
         
     }
     
-    //test
+    //test FSOFJSOID
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
